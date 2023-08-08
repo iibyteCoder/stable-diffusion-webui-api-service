@@ -1,0 +1,11 @@
+server:
+  port: 6666
+
+sd-webui:
+  address: http://localhost:7861
+  txt2img:
+    path: /sdapi/v1/txt2img
+    method: POST
+  img2img:
+    path: /sdapi/v1/img2img
+    method: POST
